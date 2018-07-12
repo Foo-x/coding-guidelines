@@ -2,7 +2,11 @@
   "name": "coding-guidelines",
   "version": "1.0.0",
   "description": "良いコードを書くための指針をまとめたメモです。",
-  "scripts": {},
+  "scripts": {
+    "gitbook": "gitbook",
+    "serve": "gitbook serve",
+    "build": "gitbook build . ./docs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Foo-x/coding-guidelines.git"

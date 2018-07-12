@@ -1,0 +1,19 @@
+{
+  "name": "coding-guidelines",
+  "version": "1.0.0",
+  "description": "良いコードを書くための指針をまとめたメモです。",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foo-x/coding-guidelines.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Foo-x/coding-guidelines/issues"
+  },
+  "homepage": "https://github.com/Foo-x/coding-guidelines#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

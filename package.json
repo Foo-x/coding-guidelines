@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Foo-x/coding-guidelines#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.2"
   }
 }

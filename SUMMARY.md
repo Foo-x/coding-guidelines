@@ -2,7 +2,7 @@
 
 - [0. はじめに](README.md)
 - [1. 前提](premise/premise.md)
-- [2. 原則]()
+- [2. 原則](principles/principles.md)
 - [3. 一貫性]()
 - [4. 名前]()
 - [5. ロジック]()

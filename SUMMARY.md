@@ -4,6 +4,7 @@
 - [1. 前提](premise/premise.md)
 - [2. 原則](principles/principles.md)
   - [2.1. KISS](principles/KISS.md)
+  - [2.2. YAGNI](principles/YAGNI.md)
 - [3. 一貫性]()
 - [4. 名前]()
 - [5. ロジック]()

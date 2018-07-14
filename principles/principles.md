@@ -3,3 +3,4 @@
 
 - [2.1. KISS](KISS.md)
 - [2.2. YAGNI](YAGNI.md)
+- [2.3. DRY](DRY.md)

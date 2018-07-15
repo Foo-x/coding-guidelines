@@ -5,3 +5,4 @@
 - [2.2. YAGNI](YAGNI.md)
 - [2.3. DRY](DRY.md)
 - [2.4. PIE](PIE.md)
+- [2.5. SRP](SRP.md)

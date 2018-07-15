@@ -7,6 +7,7 @@
   - [2.2. YAGNI](principles/YAGNI.md)
   - [2.3. DRY](principles/DRY.md)
   - [2.4. PIE](principles/PIE.md)
+  - [2.5. SRP](principles/SRP.md)
 - [3. 一貫性]()
 - [4. 名前]()
 - [5. ロジック]()

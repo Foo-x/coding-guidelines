@@ -1,0 +1,477 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.5. SRP · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="PIE.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    0. はじめに
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../premise/premise.html">
+            
+                <a href="../premise/premise.html">
+            
+                    
+                    1. 前提
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="principles.html">
+            
+                <a href="principles.html">
+            
+                    
+                    2. 原則
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="KISS.html">
+            
+                <a href="KISS.html">
+            
+                    
+                    2.1. KISS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="YAGNI.html">
+            
+                <a href="YAGNI.html">
+            
+                    
+                    2.2. YAGNI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="DRY.html">
+            
+                <a href="DRY.html">
+            
+                    
+                    2.3. DRY
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="PIE.html">
+            
+                <a href="PIE.html">
+            
+                    
+                    2.4. PIE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.5" data-path="SRP.html">
+            
+                <a href="SRP.html">
+            
+                    
+                    2.5. SRP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. 一貫性
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. 名前
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    5. ロジック
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. スコープ
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    7. 構造
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    8. テスト
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    9. コメント
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >2.5. SRP</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="srp-single-responsibility-principle">SRP (Single Responsibility Principle)</h1>
+<blockquote>
+<p>&#x5358;&#x4E00;&#x8CAC;&#x4EFB;&#x539F;&#x5247;<br>&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x5909;&#x66F4;&#x3059;&#x308B;&#x7406;&#x7531;&#x306F;1&#x3064;&#x3067;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;</p>
+</blockquote>
+<p>&#x30AF;&#x30E9;&#x30B9;(&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;)&#x3092;&#x5909;&#x66F4;&#x3059;&#x308B;&#x7406;&#x7531;&#x304C;&#x8907;&#x6570;&#x5B58;&#x5728;&#x3059;&#x308B;&#x3068;&#x3001;&#x3042;&#x308B;&#x6A5F;&#x80FD;&#x306B;&#x5BFE;&#x3059;&#x308B;&#x5909;&#x66F4;&#x304C;&#x5225;&#x306E;&#x6A5F;&#x80FD;&#x306B;&#x5F71;&#x97FF;&#x3092;&#x53CA;&#x307C;&#x3059;&#x53EF;&#x80FD;&#x6027;&#x304C;&#x9AD8;&#x304F;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;&#x305D;&#x306E;&#x305F;&#x3081;&#x3001;&#x5225;&#x306E;&#x6A5F;&#x80FD;&#x306B;&#x5F71;&#x97FF;&#x304C;&#x8D77;&#x304D;&#x3066;&#x3044;&#x306A;&#x3044;&#x3053;&#x3068;&#x306E;&#x30C6;&#x30B9;&#x30C8;&#x3092;&#x5E83;&#x3044;&#x7BC4;&#x56F2;&#x3067;&#x884C;&#x308F;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x304F;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x300C;&#x5909;&#x66F4;&#x7406;&#x7531;&#x300D;&#x306F;&#x6642;&#x3068;&#x5834;&#x5408;&#x306B;&#x3088;&#x3063;&#x3066;&#x5909;&#x308F;&#x308A;&#x307E;&#x3059;&#x3002;&#x4F8B;&#x3048;&#x3070;&#x4EE5;&#x4E0B;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x304C;&#x3042;&#x3063;&#x305F;&#x3068;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">User</span> </span>{
+  String name;
+  Sex sex;
+  <span class="hljs-keyword">int</span> age;
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getProfile</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> name + <span class="hljs-string">&quot;(&quot;</span> + age + <span class="hljs-string">&quot;)&quot;</span>;
+  }
+}
+</code></pre>
+<p><code>getProfile</code>&#x3067;&#x8FD4;&#x3059;&#x60C5;&#x5831;&#x304C;1&#x30F6;&#x6240;&#x3067;&#x306E;&#x307F;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x306E;&#x3067;&#x3042;&#x308C;&#x3070;&#x3001;&#x5909;&#x66F4;&#x7406;&#x7531;&#x306F;&#x305D;&#x306E;&#x7B87;&#x6240;&#x3067;&#x306E;&#x4ED5;&#x69D8;&#x5909;&#x66F4;&#x3060;&#x3051;&#x306A;&#x306E;&#x3067;&#x3001;&#x4E0A;&#x306E;&#x5B9F;&#x88C5;&#x3067;&#x3082;&#x5358;&#x4E00;&#x8CAC;&#x4EFB;&#x539F;&#x5247;&#x306F;&#x6E80;&#x305F;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x3068;&#x8A00;&#x3048;&#x307E;&#x3059;&#x3002;&#x3057;&#x304B;&#x3057;&#x3001;&#x8907;&#x6570;&#x306E;&#x7B87;&#x6240;&#x3067;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x5834;&#x5408;&#x306F;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x5225;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x306B;&#x51E6;&#x7406;&#x3092;&#x5207;&#x308A;&#x51FA;&#x3059;&#x3079;&#x304D;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">User</span> </span>{
+  String name;
+  Sex sex;
+  <span class="hljs-keyword">int</span> age;
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserDataFormatter</span> </span>{
+  User user;
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">UserDataFormatter</span><span class="hljs-params">(User user)</span> </span>{
+    <span class="hljs-keyword">this</span>.user = user;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> String <span class="hljs-title">getProfile</span><span class="hljs-params">()</span></span>;
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserDataFormatterForManager</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">UserDataFormatter</span> </span>{
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">UserDataFormatterForManager</span><span class="hljs-params">(User user)</span> </span>{
+    <span class="hljs-keyword">super</span>(user);
+  }
+
+  <span class="hljs-meta">@Override</span>
+  <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getProfile</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> user.name + <span class="hljs-string">&quot;(&quot;</span> + user.sex + <span class="hljs-string">&quot;: &quot;</span> + user.age + <span class="hljs-string">&quot;)&quot;</span>;
+  }
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserDataFormatterForDeveloper</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">UserDataFormatter</span> </span>{
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">UserDataFormatterForDeveloper</span><span class="hljs-params">(User user)</span> </span>{
+    <span class="hljs-keyword">super</span>(user);
+  }
+
+  <span class="hljs-meta">@Override</span>
+  <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getProfile</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> user.name + <span class="hljs-string">&quot;(&quot;</span> + user.age + <span class="hljs-string">&quot;)&quot;</span>;
+  }
+}
+</code></pre>
+<p>&#x5225;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x306B;&#x5207;&#x308A;&#x51FA;&#x3059;&#x3053;&#x3068;&#x3067;&#x3001;&#x305D;&#x308C;&#x305E;&#x308C;&#x306E;&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x3067;&#x4ED5;&#x69D8;&#x304C;&#x5909;&#x308F;&#x3063;&#x3066;&#x3082;&#x4ED6;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x306B;&#x306F;&#x5F71;&#x97FF;&#x304C;&#x53CA;&#x3073;&#x307E;&#x305B;&#x3093;&#x3002;</p>
+<p><img align="absmiddle" alt=":pencil2:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/pencil2.png" title=":pencil2:"> <strong>&#x30AF;&#x30E9;&#x30B9;&#x304C;&#x5909;&#x66F4;&#x3055;&#x308C;&#x308B;&#x7406;&#x7531;&#x306F;1&#x3064;&#x3060;&#x3051;&#x306B;&#x3059;&#x308B;</strong></p>
+<h2 id="&#x6CE8;&#x610F;">&#x6CE8;&#x610F;</h2>
+<p>&#x4E0A;&#x8A18;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x7406;&#x7531;&#x304C;&#x8907;&#x6570;&#x3042;&#x308B;&#x5834;&#x5408;&#x306F;&#x5225;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x306B;&#x51E6;&#x7406;&#x3092;&#x5207;&#x308A;&#x51FA;&#x3059;&#x3079;&#x304D;&#x3067;&#x3059;&#x304C;&#x3001;&#x9006;&#x306B;&#x5909;&#x66F4;&#x7406;&#x7531;&#x304C;1&#x3064;&#x3057;&#x304B;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x3001;<a href="YAGNI.html">YAGNI</a>&#x306B;&#x5F93;&#x3063;&#x3066;&#x6700;&#x521D;&#x306E;&#x5B9F;&#x88C5;&#x306E;&#x3088;&#x3046;&#x306B;&#x3057;&#x305F;&#x307B;&#x3046;&#x304C;&#x30B7;&#x30F3;&#x30D7;&#x30EB;&#x3067;&#x3059;&#x3002;&#x3042;&#x308B;&#x51E6;&#x7406;&#x3092;&#x5B9F;&#x88C5;&#x3059;&#x308B;&#x3068;&#x304D;&#x306F;&#x3001;&#x305D;&#x306E;&#x51E6;&#x7406;&#x306E;&#x5909;&#x66F4;&#x7406;&#x7531;&#x304C;&#x3044;&#x304F;&#x3064;&#x5B58;&#x5728;&#x3059;&#x308B;&#x306E;&#x304B;&#x3092;&#x5E38;&#x306B;&#x610F;&#x8B58;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<h2 id="&#x5909;&#x66F4;&#x7406;&#x7531;&#x306E;&#x898B;&#x3064;&#x3051;&#x65B9;">&#x5909;&#x66F4;&#x7406;&#x7531;&#x306E;&#x898B;&#x3064;&#x3051;&#x65B9;</h2>
+<p>&#x5909;&#x66F4;&#x7406;&#x7531;&#x306E;&#x5358;&#x8907;&#x3067;&#x51E6;&#x7406;&#x3092;&#x3069;&#x3053;&#x306B;&#x66F8;&#x304F;&#x3079;&#x304D;&#x304B;&#x304C;&#x5909;&#x308F;&#x308A;&#x307E;&#x3059;&#x304C;&#x3001;&#x3067;&#x306F;&#x3069;&#x306E;&#x3088;&#x3046;&#x306B;&#x3057;&#x3066;&#x5909;&#x66F4;&#x7406;&#x7531;&#x3092;&#x898B;&#x3064;&#x3051;&#x308C;&#x3070;&#x826F;&#x3044;&#x3067;&#x3057;&#x3087;&#x3046;&#x304B;&#xFF1F;&#x57FA;&#x672C;&#x7684;&#x306B;&#x306F;&#x3001;&#x305D;&#x306E;&#x51E6;&#x7406;&#x304C;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x7B87;&#x6240;&#x306E;&#x6570;&#x304C;&#x5909;&#x66F4;&#x7406;&#x7531;&#x306E;&#x6570;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;&#x307E;&#x305F;&#x3001;&#x5207;&#x308A;&#x51FA;&#x3057;&#x305F;&#x305D;&#x308C;&#x305E;&#x308C;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x306B;&#x3046;&#x307E;&#x304F;&#x540D;&#x524D;&#x3092;&#x3064;&#x3051;&#x3089;&#x308C;&#x308B;&#x304B;&#x3082;&#x5224;&#x65AD;&#x306E;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;&#x8907;&#x6570;&#x306E;&#x7B87;&#x6240;&#x3067;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x3066;&#x3044;&#x3066;&#x3082;&#x540C;&#x3058;&#x540D;&#x524D;&#x3057;&#x304B;&#x3064;&#x3051;&#x3089;&#x308C;&#x306A;&#x3044;&#x306E;&#x3067;&#x3042;&#x308C;&#x3070;&#x5909;&#x66F4;&#x7406;&#x7531;&#x306F;1&#x3064;&#x3057;&#x304B;&#x306A;&#x3044;&#x304B;&#x3082;&#x3057;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;</p>
+<p><img align="absmiddle" alt=":pencil2:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/pencil2.png" title=":pencil2:"> <strong>&#x5909;&#x66F4;&#x7406;&#x7531;&#x306E;&#x6570;=&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x7B87;&#x6240;&#x306E;&#x6570;</strong></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="PIE.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 2.4. PIE">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.5. SRP","level":"1.3.5","depth":2,"next":{"title":"3. 一貫性","level":"1.4","depth":1,"ref":"","articles":[]},"previous":{"title":"2.4. PIE","level":"1.3.4","depth":2,"path":"principles/PIE.md","ref":"principles/PIE.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"principles/SRP.md","mtime":"2018-07-15T10:08:03.816Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-15T10:08:32.346Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

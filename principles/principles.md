@@ -6,3 +6,4 @@
 - [2.3. DRY](DRY.md)
 - [2.4. PIE](PIE.md)
 - [2.5. SRP](SRP.md)
+- [2.6. OCP](OCP.md)

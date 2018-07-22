@@ -15,5 +15,6 @@
   - [7.1. SRP](architecture/SRP.md)
   - [7.2. OCP](architecture/OCP.md)
   - [7.3. LSP](architecture/LSP.md)
+  - [7.4. ISP](architecture/ISP.md)
 - [8. テスト]()
 - [9. コメント]()

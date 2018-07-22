@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>2.4. PIE · GitBook</title>
+        <title>7.3. LSP · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -62,7 +62,7 @@
 
     
     
-    <link rel="prev" href="DRY.html" />
+    <link rel="prev" href="OCP.html" />
     
 
     </head>
@@ -117,9 +117,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="principles.html">
+        <li class="chapter " data-level="1.3" data-path="../principles/principles.html">
             
-                <a href="principles.html">
+                <a href="../principles/principles.html">
             
                     
                     2. 原則
@@ -131,9 +131,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="KISS.html">
+        <li class="chapter " data-level="1.3.1" data-path="../principles/KISS.html">
             
-                <a href="KISS.html">
+                <a href="../principles/KISS.html">
             
                     
                     2.1. KISS
@@ -144,9 +144,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="YAGNI.html">
+        <li class="chapter " data-level="1.3.2" data-path="../principles/YAGNI.html">
             
-                <a href="YAGNI.html">
+                <a href="../principles/YAGNI.html">
             
                     
                     2.2. YAGNI
@@ -157,9 +157,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="DRY.html">
+        <li class="chapter " data-level="1.3.3" data-path="../principles/DRY.html">
             
-                <a href="DRY.html">
+                <a href="../principles/DRY.html">
             
                     
                     2.3. DRY
@@ -170,9 +170,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.4" data-path="PIE.html">
+        <li class="chapter " data-level="1.3.4" data-path="../principles/PIE.html">
             
-                <a href="PIE.html">
+                <a href="../principles/PIE.html">
             
                     
                     2.4. PIE
@@ -240,9 +240,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="../architecture/architecture.html">
+        <li class="chapter " data-level="1.8" data-path="architecture.html">
             
-                <a href="../architecture/architecture.html">
+                <a href="architecture.html">
             
                     
                     7. 構造
@@ -254,9 +254,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="../architecture/SRP.html">
+        <li class="chapter " data-level="1.8.1" data-path="SRP.html">
             
-                <a href="../architecture/SRP.html">
+                <a href="SRP.html">
             
                     
                     7.1. SRP
@@ -267,9 +267,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.2" data-path="../architecture/OCP.html">
+        <li class="chapter " data-level="1.8.2" data-path="OCP.html">
             
-                <a href="../architecture/OCP.html">
+                <a href="OCP.html">
             
                     
                     7.2. OCP
@@ -280,9 +280,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.3" data-path="../architecture/LSP.html">
+        <li class="chapter active" data-level="1.8.3" data-path="LSP.html">
             
-                <a href="../architecture/LSP.html">
+                <a href="LSP.html">
             
                     
                     7.3. LSP
@@ -354,7 +354,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >2.4. PIE</a>
+        <a href=".." >7.3. LSP</a>
     </h1>
 </div>
 
@@ -369,18 +369,25 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="pie-program-intently-and-expressively">PIE (Program intently and expressively)</h1>
+                                <h1 id="lsp-liskov-substitution-principle">LSP (Liskov Substitution Principle)</h1>
 <blockquote>
-<p>&#x610F;&#x56F3;&#x3092;&#x8868;&#x73FE;&#x3057;&#x3066;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x305B;&#x3088;</p>
+<p>&#x30EA;&#x30B9;&#x30B3;&#x30D5;&#x306E;&#x7F6E;&#x63DB;&#x539F;&#x5247;<br>&#x6D3E;&#x751F;&#x578B;&#x306F;&#x305D;&#x306E;&#x57FA;&#x5E95;&#x578B;&#x3068;&#x7F6E;&#x63DB;&#x53EF;&#x80FD;&#x3067;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;</p>
 </blockquote>
-<p>&#x4F55;&#x3092;&#x3057;&#x3066;&#x3044;&#x308B;&#x306E;&#x304B;&#x304C;&#x7406;&#x89E3;&#x3057;&#x3084;&#x3059;&#x3044;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x30B3;&#x30FC;&#x30C9;&#x306F;&#x66F8;&#x304F;&#x6642;&#x9593;&#x3088;&#x308A;&#x3082;&#x8AAD;&#x307E;&#x308C;&#x308B;&#x6642;&#x9593;&#x306E;&#x307B;&#x3046;&#x304C;&#x9577;&#x3044;&#x3082;&#x306E;&#x3067;&#x3059;&#x3002;</p>
-<p>&#x7406;&#x89E3;&#x3057;&#x3084;&#x3059;&#x3044;&#x30B3;&#x30FC;&#x30C9;&#x306B;&#x3059;&#x308B;&#x65B9;&#x6CD5;&#x3068;&#x3057;&#x3066;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x3082;&#x306E;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x306F;&#x89AA;&#x30AF;&#x30E9;&#x30B9;&#x306E;&#x6027;&#x8CEA;&#x3092;&#x5F15;&#x304D;&#x7D99;&#x304C;&#x306A;&#x3051;&#x308C;&#x3070;&#x3044;&#x3051;&#x307E;&#x305B;&#x3093;&#x3002;&#x4F8B;&#x3048;&#x3070;&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x3067;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x5B9F;&#x88C5;&#x3092;&#x884C;&#x3063;&#x3066;&#x306F;&#x3044;&#x3051;&#x307E;&#x305B;&#x3093;&#x3002;</p>
 <ul>
-<li>&#x5024;&#x306F;&#x5909;&#x6570;&#x306B;&#x5165;&#x308C;&#x3066;&#x540D;&#x524D;&#x3092;&#x3064;&#x3051;&#x308B;</li>
-<li>&#x3072;&#x3068;&#x307E;&#x3068;&#x307E;&#x308A;&#x306E;&#x51E6;&#x7406;&#x306F;&#x30E1;&#x30BD;&#x30C3;&#x30C9;&#x306B;&#x3057;&#x3066;&#x540D;&#x524D;&#x3092;&#x3064;&#x3051;&#x308B;</li>
-<li>&#x306A;&#x305C;&#x305D;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x3044;&#x305F;&#x306E;&#x304B;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x3092;&#x66F8;&#x304F;</li>
+<li>&#x89AA;&#x30AF;&#x30E9;&#x30B9;&#x3067;&#x5B9A;&#x7FA9;&#x3057;&#x3066;&#x3044;&#x308B;&#x30D5;&#x30A3;&#x30FC;&#x30EB;&#x30C9;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x306A;&#x3044;</li>
+<li>&#x89AA;&#x30AF;&#x30E9;&#x30B9;&#x306E;&#x30E1;&#x30BD;&#x30C3;&#x30C9;&#x3092;&#x5168;&#x304F;&#x5225;&#x306E;&#x51E6;&#x7406;&#x306B;&#x66F8;&#x304D;&#x63DB;&#x3048;&#x308B;</li>
 </ul>
-<p><img align="absmiddle" alt=":pencil2:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/pencil2.png" title=":pencil2:"> <strong>&#x7406;&#x89E3;&#x3057;&#x3084;&#x3059;&#x3044;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x304F;</strong></p>
+<p>LSP&#x306B;&#x9055;&#x53CD;&#x3057;&#x305F;&#x30AF;&#x30E9;&#x30B9;&#x304C;&#x5B58;&#x5728;&#x3059;&#x308B;&#x3068;&#x3001;&#x305D;&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x5229;&#x7528;&#x3059;&#x308B;&#x5074;&#x3067;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x554F;&#x984C;&#x304C;&#x767A;&#x751F;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x3069;&#x306E;&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x4F7F;&#x3046;&#x304B;&#x6C17;&#x306B;&#x3057;&#x306A;&#x3051;&#x308C;&#x3070;&#x3044;&#x3051;&#x306A;&#x3044;</li>
+<li>&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x306E;&#x5B9F;&#x88C5;&#x3092;&#x77E5;&#x3089;&#x306A;&#x3051;&#x308C;&#x3070;&#x3044;&#x3051;&#x306A;&#x3044;</li>
+<li>&#x305D;&#x306E;&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x306B;&#x5F37;&#x304F;&#x7D50;&#x5408;(&#x4F9D;&#x5B58;)&#x3059;&#x308B;<ul>
+<li><a href="OCP.html">OCP (Open-Closed Principle)</a>&#x306B;&#x9055;&#x53CD;&#x3059;&#x308B;&#x3053;&#x3068;&#x306B;&#x3082;&#x306A;&#x308B;</li>
+</ul>
+</li>
+</ul>
+<p><img align="absmiddle" alt=":pencil2:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/pencil2.png" title=":pencil2:"> <strong>&#x5B50;&#x30AF;&#x30E9;&#x30B9;&#x306F;&#x5FC5;&#x305A;&#x89AA;&#x30AF;&#x30E9;&#x30B9;&#x306E;&#x6027;&#x8CEA;&#x3092;&#x5F15;&#x304D;&#x7D99;&#x3050;</strong></p>
 
                                 
                                 </section>
@@ -408,7 +415,7 @@
 
             
                 
-                <a href="DRY.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 2.3. DRY">
+                <a href="OCP.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 7.2. OCP">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -420,7 +427,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.4. PIE","level":"1.3.4","depth":2,"next":{"title":"3. 一貫性","level":"1.4","depth":1,"ref":"","articles":[]},"previous":{"title":"2.3. DRY","level":"1.3.3","depth":2,"path":"principles/DRY.md","ref":"principles/DRY.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"principles/PIE.md","mtime":"2018-07-22T13:58:41.324Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-22T14:01:52.726Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"7.3. LSP","level":"1.8.3","depth":2,"next":{"title":"8. テスト","level":"1.9","depth":1,"ref":"","articles":[]},"previous":{"title":"7.2. OCP","level":"1.8.2","depth":2,"path":"architecture/OCP.md","ref":"architecture/OCP.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"architecture/LSP.md","mtime":"2018-07-22T13:47:41.213Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-22T14:01:52.726Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

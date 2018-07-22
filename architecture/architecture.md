@@ -3,3 +3,4 @@
 
 - [7.1. SRP](SRP.md)
 - [7.2. OCP](OCP.md)
+- [7.3. LSP](LSP.md)

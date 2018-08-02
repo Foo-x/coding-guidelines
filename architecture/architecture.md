@@ -5,3 +5,4 @@
 - [7.2. OCP](OCP.md)
 - [7.3. LSP](LSP.md)
 - [7.4. ISP](ISP.md)
+- [7.5. DIP](DIP.md)

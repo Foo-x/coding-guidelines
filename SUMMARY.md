@@ -16,5 +16,6 @@
   - [7.2. OCP](architecture/OCP.md)
   - [7.3. LSP](architecture/LSP.md)
   - [7.4. ISP](architecture/ISP.md)
+  - [7.5. DIP](architecture/DIP.md)
 - [8. テスト]()
 - [9. コメント]()

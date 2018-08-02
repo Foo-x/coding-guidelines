@@ -17,5 +17,6 @@
   - [7.3. LSP](architecture/LSP.md)
   - [7.4. ISP](architecture/ISP.md)
   - [7.5. DIP](architecture/DIP.md)
+  - [7.6. SOLID](architecture/SOLID.md)
 - [8. テスト]()
 - [9. コメント]()

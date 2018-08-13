@@ -1,9 +1,9 @@
 # KISS (Keep it simple, stupid)
 > シンプルにしておけ、愚か者よ
 
-コードを書く際は、常に**単純**かつ**簡潔**に保ちましょう。複雑なコードは修正や拡張が難しくなります。
+コードを書く際は常に**単純**かつ**簡潔**に保ちましょう。複雑なコードは修正や拡張が難しくなります。
 
-ここで大事なことは、「単純性」と「簡潔性」を両方保つことです。片方のみでは不十分です。
+大事なのは「単純性」と「簡潔性」を両方保つことです。
 
 ### 単純 :o: 簡潔 :x: の例
 ```java
@@ -38,17 +38,13 @@ System.out.println(names.get(2)
 
 ### 単純 :x: 簡潔 :o: の例
 ```java
-names.forEach(name -> {
-  System.out.println(name + classes.stream().collect(Collectors.joining("と", "は", "の授業を受けています。");
-});
+names.forEach(name -> System.out.println(name + "は" + String.join("と", classes) + "の授業を受けています。");
 ```
 
 ### 単純 :o: 簡潔 :o: の例
 ```java
-String classesStr = String.join("と", classes);
-for (String name : names) {
-  System.out.println(name + "は" + classesStr + "の授業を受けています。");
-}
+String classesTaking = String.join("と", classes);
+names.forEach(name -> System.out.println(name + "は" + classesTaking + "の授業を受けています。"));
 ```
 
 :pencil2: **コードは「単純」かつ「簡潔」に保つ**

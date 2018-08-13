@@ -1,5 +1,5 @@
 # SOLID
-以下の5つの設計原則がその頭文字を取って**SOLID**としてまとめられています。
+以下の5つの設計原則の頭文字を取って**SOLID**とまとめられています。
 - [Single Responsibility Principle (単一責任原則)](SRP.md)
 - [Open-Closed Principle (開放・閉鎖原則)](OCP.md)
 - [Liskov Substitution Principle (リスコフの置換原則)](LSP.md)

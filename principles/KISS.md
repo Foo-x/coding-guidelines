@@ -7,44 +7,45 @@
 
 ### 単純 :o: 簡潔 :x: の例
 ```java
-// List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
-// List<String> classes = Arrays.asList("Math", "Science", "History");
+// 1から20までのFizzBuzz
+public void fizzBuzz() {
+  System.out.println(createFizzBuzzStr(1));
+  System.out.println(createFizzBuzzStr(2));
+  System.out.println(createFizzBuzzStr(3));
+  // ...
+  System.out.println(createFizzBuzzStr(20));
+}
 
-System.out.println(names.get(0)
-  + "は"
-  + classes.get(0)
-  + "と"
-  + classes.get(1)
-  + "と"
-  + classes.get(2)
-  + "の授業を受けています。");
-System.out.println(names.get(1)
-  + "は"
-  + classes.get(0)
-  + "と"
-  + classes.get(1)
-  + "と"
-  + classes.get(2)
-  + "の授業を受けています。");
-System.out.println(names.get(2)
-  + "は"
-  + classes.get(0)
-  + "と"
-  + classes.get(1)
-  + "と"
-  + classes.get(2)
-  + "の授業を受けています。");
+public String createFizzBuzzStr(int i) {
+  if (i % 15 == 0) {
+    return "FizzBuzz";
+  } else if (i % 3 == 0) {
+    return "Fizz";
+  } else if (i % 5 == 0) {
+    return "Buzz";
+  } else {
+    return String.valueOf(i);
+  }
+}
 ```
 
 ### 単純 :x: 簡潔 :o: の例
 ```java
-names.forEach(name -> System.out.println(name + "は" + String.join("と", classes) + "の授業を受けています。");
+for (int i = 1; i <= 20; i++) System.out.println(i % 15 == 0 ? "FizzBuzz" : i % 3 == 0 ? "Fizz" : i % 5 == 0 ? "Buzz" : i);
 ```
 
 ### 単純 :o: 簡潔 :o: の例
 ```java
-String classesTaking = String.join("と", classes);
-names.forEach(name -> System.out.println(name + "は" + classesTaking + "の授業を受けています。"));
+for (int i = 1; i <= 20; i++) {
+  if (i % 15 == 0)
+    System.out.println("FizzBuzz");
+  if (i % 3 == 0)
+    System.out.println("Fizz");
+  if (i % 5 == 0)
+    System.out.println("Buzz");
+  else
+    System.out.println(i);
+}
 ```
 
 :pencil2: **コードは「単純」かつ「簡潔」に保つ**

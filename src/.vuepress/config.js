@@ -1,6 +1,9 @@
 module.exports = {
   base: '/coding-guidelines/',
   dest: 'docs',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' } ]
+  ],
   themeConfig: {
     sidebar: [
       [ '/'        , '0. はじめに' ],

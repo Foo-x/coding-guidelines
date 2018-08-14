@@ -1,5 +1,6 @@
 module.exports = {
   base: '/coding-guidelines/',
+  title: 'コーディングの指針',
   dest: 'docs',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' } ]

@@ -1,3 +1,7 @@
+---
+title: ISP
+---
+
 # ISP (Interface Segregation Principle)
 > インターフェース分離の原則  
 > クライアントに、クライアントが利用しないメソッドへの依存を強制させてはいけない

@@ -1,3 +1,7 @@
+---
+title: PIE
+---
+
 # PIE (Program intently and expressively)
 > 意図を表現してプログラミングせよ
 

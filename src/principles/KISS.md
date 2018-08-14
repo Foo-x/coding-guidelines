@@ -1,3 +1,7 @@
+---
+title: KISS
+---
+
 # KISS (Keep it simple, stupid)
 > シンプルにしておけ、愚か者よ
 

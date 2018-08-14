@@ -1,3 +1,7 @@
+---
+title: YAGNI
+---
+
 # YAGNI (You ain't gonna need it)
 > それはきっと必要にならない
 

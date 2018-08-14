@@ -1,3 +1,7 @@
+---
+title: DIP
+---
+
 # DIP (Dependency Inversion Principle)
 > 依存関係逆転の原則  
 > 上位のモジュールは下位のモジュールに依存してはならない。どちらのモジュールも抽象に依存すべきである

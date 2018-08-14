@@ -1,3 +1,7 @@
+---
+title: LSP
+---
+
 # LSP (Liskov Substitution Principle)
 > リスコフの置換原則  
 > 派生型はその基底型と置換可能でなければならない

@@ -1,3 +1,7 @@
+---
+title: DRY
+---
+
 # DRY (Don't repeat yourself)
 > 繰り返すな
 

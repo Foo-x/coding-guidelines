@@ -1,3 +1,7 @@
+---
+title: OCP
+---
+
 # OCP (Open-Closed Principle)
 > 開放・閉鎖原則  
 > クラスは拡張に対して開き、修正に対して閉じていなければいけない

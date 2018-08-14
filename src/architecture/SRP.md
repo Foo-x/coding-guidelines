@@ -1,3 +1,7 @@
+---
+title: SRP
+---
+
 # SRP (Single Responsibility Principle)
 > 単一責任原則  
 > クラスを変更する理由は1つでなければならない

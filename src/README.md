@@ -12,8 +12,3 @@
 - [7. 構造](architecture/SRP.md)
 - [8. テスト]()
 - [9. コメント]()
-
----
-
-コメント・アドバイス等ありましたら以下にてお願い致します。  
-[GitHub](https://github.com/Foo-x/coding-guidelines)

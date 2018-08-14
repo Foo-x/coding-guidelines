@@ -9,7 +9,7 @@ module.exports = {
       [ '/'        , '0. はじめに' ],
       [ '/premise/', '1. 前提' ],
       {
-        title: '2. 原則',
+        title   : '2. 原則',
         children: [
           [ '/principles/KISS' , '2.1. KISS' ],
           [ '/principles/YAGNI', '2.2. YAGNI' ],
@@ -22,7 +22,7 @@ module.exports = {
       [ '#', '5. ロジック' ],
       [ '#', '6. スコープ' ],
       {
-        title: '7. 構造',
+        title   : '7. 構造',
         children: [
           [ '/architecture/SRP'  , '7.1. SRP' ],
           [ '/architecture/OCP'  , '7.2. OCP' ],
@@ -35,6 +35,10 @@ module.exports = {
       [ '#', '8. テスト' ],
       [ '#', '9. コメント' ],
     ],
+    repo        : 'foo-x/coding-guidelines',
+    docsDir     : 'src',
+    editLinks   : true,
+    editLinkText: '編集リクエスト',
   },
   markdown: {
     config: md => {

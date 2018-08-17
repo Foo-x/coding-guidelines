@@ -21,7 +21,7 @@ module.exports = {
       {
         title   : '3. 一貫性',
         children: [
-          [ '/consistency/', '3.1. 基本的な考え方' ]
+          [ '/consistency/', '3.1. 美しさ' ]
         ]
       },
       [ '#', '4. 名前' ],

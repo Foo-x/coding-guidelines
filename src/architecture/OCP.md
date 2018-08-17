@@ -17,4 +17,4 @@ title: OCP
 
 ## 関連
 ### [DIP (Dependency Inversion Principle)](DIP.md)
-実現手段が同じです。
+目的を実現する手段が同じです。

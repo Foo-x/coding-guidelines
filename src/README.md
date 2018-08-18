@@ -10,7 +10,7 @@ title: はじめに
 - [1. 前提](premise/)
 - [2. 原則](principles/KISS.md)
 - [3. 一貫性](consistency/)
-- [4. 名前]()
+- [4. 名前](name/)
 - [5. ロジック]()
 - [6. スコープ]()
 - [7. 構造](architecture/SRP.md)

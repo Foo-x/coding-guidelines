@@ -11,7 +11,7 @@ title: はじめに
 - [2. 原則](principles/KISS.md)
 - [3. 一貫性](consistency/)
 - [4. 名前](name/)
-- [5. ロジック]()
+- [5. ロジック](logic/order-of-if-expression.md)
 - [6. スコープ]()
 - [7. 構造](architecture/SRP.md)
 - [8. テスト]()

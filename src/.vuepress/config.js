@@ -30,7 +30,12 @@ module.exports = {
           [ '/name/', '4.1. 情報量の最大化' ]
         ]
       },
-      [ '#', '5. ロジック' ],
+      {
+        title   : '5. ロジック',
+        children: [
+          [ '/logic/order-of-if-expression', '5.1. 条件式の並び順' ]
+        ]
+      },
       [ '#', '6. スコープ' ],
       {
         title   : '7. 構造',

@@ -7,49 +7,48 @@ module.exports = {
   ],
   themeConfig: {
     sidebar: [
-      [ '/'        , '0. はじめに' ],
-      [ '/premise/', '1. 前提' ],
+      [ '/', '0. はじめに' ],
       {
-        title   : '2. 原則',
+        title   : '1. 原則',
         children: [
-          [ '/principles/KISS' , '2.1. KISS' ],
-          [ '/principles/YAGNI', '2.2. YAGNI' ],
-          [ '/principles/DRY'  , '2.3. DRY' ],
-          [ '/principles/PIE'  , '2.4. PIE' ],
+          [ '/principles/KISS' , '1.1. KISS' ],
+          [ '/principles/YAGNI', '1.2. YAGNI' ],
+          [ '/principles/DRY'  , '1.3. DRY' ],
+          [ '/principles/PIE'  , '1.4. PIE' ],
         ]
       },
       {
-        title   : '3. 一貫性',
+        title   : '2. 一貫性',
         children: [
-          [ '/consistency/', '3.1. 美しさ' ]
+          [ '/consistency/', '2.1. 美しさ' ]
         ]
       },
       {
-        title   : '4. 名前',
+        title   : '3. 名前',
         children: [
-          [ '/name/', '4.1. 情報量の最大化' ]
+          [ '/name/', '3.1. 情報量の最大化' ]
         ]
       },
       {
-        title   : '5. ロジック',
+        title   : '4. ロジック',
         children: [
-          [ '/logic/order-of-if-expression', '5.1. 条件式の並び順' ]
+          [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ]
         ]
       },
-      [ '#', '6. スコープ' ],
+      [ '#', '5. スコープ' ],
       {
-        title   : '7. 構造',
+        title   : '6. 構造',
         children: [
-          [ '/architecture/SRP'  , '7.1. SRP' ],
-          [ '/architecture/OCP'  , '7.2. OCP' ],
-          [ '/architecture/LSP'  , '7.3. LSP' ],
-          [ '/architecture/ISP'  , '7.4. ISP' ],
-          [ '/architecture/DIP'  , '7.5. DIP' ],
-          [ '/architecture/SOLID', '7.6. SOLID' ],
+          [ '/architecture/SRP'  , '6.1. SRP' ],
+          [ '/architecture/OCP'  , '6.2. OCP' ],
+          [ '/architecture/LSP'  , '6.3. LSP' ],
+          [ '/architecture/ISP'  , '6.4. ISP' ],
+          [ '/architecture/DIP'  , '6.5. DIP' ],
+          [ '/architecture/SOLID', '6.6. SOLID' ],
         ]
       },
-      [ '#', '8. テスト' ],
-      [ '#', '9. コメント' ],
+      [ '#', '7. テスト' ],
+      [ '#', '8. コメント' ],
     ],
     repo        : 'foo-x/coding-guidelines',
     docsDir     : 'src',

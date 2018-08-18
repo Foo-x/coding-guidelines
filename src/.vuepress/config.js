@@ -35,20 +35,19 @@ module.exports = {
           [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ]
         ]
       },
-      [ '#', '5. スコープ' ],
       {
-        title   : '6. 構造',
+        title   : '5. 構造',
         children: [
-          [ '/architecture/SRP'  , '6.1. SRP' ],
-          [ '/architecture/OCP'  , '6.2. OCP' ],
-          [ '/architecture/LSP'  , '6.3. LSP' ],
-          [ '/architecture/ISP'  , '6.4. ISP' ],
-          [ '/architecture/DIP'  , '6.5. DIP' ],
-          [ '/architecture/SOLID', '6.6. SOLID' ],
+          [ '/architecture/SRP'  , '5.1. SRP' ],
+          [ '/architecture/OCP'  , '5.2. OCP' ],
+          [ '/architecture/LSP'  , '5.3. LSP' ],
+          [ '/architecture/ISP'  , '5.4. ISP' ],
+          [ '/architecture/DIP'  , '5.5. DIP' ],
+          [ '/architecture/SOLID', '5.6. SOLID' ],
         ]
       },
-      [ '#', '7. テスト' ],
-      [ '#', '8. コメント' ],
+      [ '#', '6. テスト' ],
+      [ '#', '7. コメント' ],
     ],
     repo        : 'foo-x/coding-guidelines',
     docsDir     : 'src',

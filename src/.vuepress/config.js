@@ -46,7 +46,12 @@ module.exports = {
           [ '/architecture/SOLID', '5.6. SOLID' ],
         ]
       },
-      [ '#', '6. テスト' ],
+      {
+        title   : '6. テスト',
+        children: [
+          [ '/test/'  , '6.1. 目的' ],
+        ]
+      },
       [ '#', '7. コメント' ],
     ],
     repo        : 'foo-x/coding-guidelines',

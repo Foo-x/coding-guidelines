@@ -3,7 +3,7 @@ module.exports = {
   title: 'コーディングの指針',
   dest: 'docs',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' } ]
+    ['link', { rel: 'icon', href: '/favicon.png' } ],
   ],
   themeConfig: {
     sidebar: [
@@ -20,19 +20,20 @@ module.exports = {
       {
         title   : '2. 一貫性',
         children: [
-          [ '/consistency/', '2.1. 美しさ' ]
+          [ '/consistency/', '2.1. 美しさ' ],
         ]
       },
       {
         title   : '3. 名前',
         children: [
-          [ '/name/', '3.1. 情報量の最大化' ]
+          [ '/name/', '3.1. 情報量の最大化' ],
         ]
       },
       {
         title   : '4. ロジック',
         children: [
-          [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ]
+          [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ],
+          [ '/logic/declarative', '4.2. 宣言型' ],
         ]
       },
       {

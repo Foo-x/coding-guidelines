@@ -49,10 +49,15 @@ module.exports = {
       {
         title   : '6. テスト',
         children: [
-          [ '/test/'  , '6.1. 目的' ],
+          [ '/test/', '6.1. 目的' ],
         ]
       },
-      [ '#', '7. コメント' ],
+      {
+        title   : '7. コメント',
+        children: [
+          [ '/comment/kinds', '7.1. 種類' ],
+        ]
+      },
     ],
     repo        : 'foo-x/coding-guidelines',
     docsDir     : 'src',

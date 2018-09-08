@@ -33,18 +33,19 @@ module.exports = {
         title   : '4. ロジック',
         children: [
           [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ],
-          [ '/logic/declarative', '4.2. 宣言型' ],
+          [ '/logic/declarative'           , '4.2. 宣言型' ],
         ]
       },
       {
         title   : '5. 構造',
         children: [
-          [ '/architecture/SRP'  , '5.1. SRP' ],
-          [ '/architecture/OCP'  , '5.2. OCP' ],
-          [ '/architecture/LSP'  , '5.3. LSP' ],
-          [ '/architecture/ISP'  , '5.4. ISP' ],
-          [ '/architecture/DIP'  , '5.5. DIP' ],
-          [ '/architecture/SOLID', '5.6. SOLID' ],
+          [ '/architecture/SRP'               , '5.1. SRP' ],
+          [ '/architecture/OCP'               , '5.2. OCP' ],
+          [ '/architecture/LSP'               , '5.3. LSP' ],
+          [ '/architecture/ISP'               , '5.4. ISP' ],
+          [ '/architecture/DIP'               , '5.5. DIP' ],
+          [ '/architecture/SOLID'             , '5.6. SOLID' ],
+          [ '/architecture/hiding-information', '5.7. 情報の隠蔽' ],
         ]
       },
       {

@@ -46,7 +46,8 @@ module.exports = {
           [ '/architecture/DIP'               , '5.5. DIP' ],
           [ '/architecture/SOLID'             , '5.6. SOLID' ],
           [ '/architecture/REP'               , '5.7. REP' ],
-          [ '/architecture/hiding-information', '5.8. 情報の隠蔽' ],
+          [ '/architecture/CRP'               , '5.8. CRP' ],
+          [ '/architecture/hiding-information', '5.9. 情報の隠蔽' ],
         ]
       },
       {

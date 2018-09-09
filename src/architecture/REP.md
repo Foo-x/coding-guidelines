@@ -1,3 +1,7 @@
+---
+title: REP
+---
+
 # REP (Reuse-Release Equivalency Principle)
 > 再利用・リリース等価の原則  
 > 再利用とリリースの単位は等価になる

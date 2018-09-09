@@ -50,7 +50,8 @@ module.exports = {
           [ '/architecture/CCP'               , '5.9. CCP' ],
           [ '/architecture/ADP'               , '5.10. ADP' ],
           [ '/architecture/SDP'               , '5.11. SDP' ],
-          [ '/architecture/hiding-information', '5.12. 情報の隠蔽' ],
+          [ '/architecture/SAP'               , '5.12. SAP' ],
+          [ '/architecture/hiding-information', '5.13. 情報の隠蔽' ],
         ]
       },
       {

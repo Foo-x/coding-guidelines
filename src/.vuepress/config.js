@@ -48,7 +48,8 @@ module.exports = {
           [ '/architecture/REP'               , '5.7. REP' ],
           [ '/architecture/CRP'               , '5.8. CRP' ],
           [ '/architecture/CCP'               , '5.9. CCP' ],
-          [ '/architecture/hiding-information', '5.10. 情報の隠蔽' ],
+          [ '/architecture/ADP'               , '5.10. ADP' ],
+          [ '/architecture/hiding-information', '5.11. 情報の隠蔽' ],
         ]
       },
       {

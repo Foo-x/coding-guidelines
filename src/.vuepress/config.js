@@ -28,6 +28,7 @@ module.exports = {
         children: [
           [ '/name/'            , '3.1. 情報量の最大化' ],
           [ '/name/concreteness', '3.2. 具体性' ],
+          [ '/name/prejudice'   , '3.3. 先入観' ],
         ]
       },
       {

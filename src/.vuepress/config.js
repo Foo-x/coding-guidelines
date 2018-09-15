@@ -26,7 +26,8 @@ module.exports = {
       {
         title   : '3. 名前',
         children: [
-          [ '/name/', '3.1. 情報量の最大化' ],
+          [ '/name/'            , '3.1. 情報量の最大化' ],
+          [ '/name/concreteness', '3.2. 具体性' ],
         ]
       },
       {

@@ -20,8 +20,9 @@ module.exports = {
       {
         title   : '2. 一貫性',
         children: [
-          [ '/consistency/'           , '2.1. 美しさ' ],
-          [ '/consistency/conventions', '2.2. 規約' ],
+          [ '/consistency/'             , '2.1. 美しさ' ],
+          [ '/consistency/conventions'  , '2.2. 規約' ],
+          [ '/consistency/vertical-line', '2.3. 縦のライン' ],
         ]
       },
       {

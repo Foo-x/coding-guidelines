@@ -1,3 +1,5 @@
+const twemoji = require('twemoji');
+
 module.exports = {
   base: '/coding-guidelines/',
   title: 'コーディングの指針',
@@ -79,6 +81,10 @@ module.exports = {
   markdown: {
     config: md => {
       md.use(require('markdown-it-footnote'));
+      md.renderer.rules.emoji = (token, idx) => twemoji.parse(token[idx].content, {
+        folder: 'svg',
+        ext   : '.svg'
+      });
     }
   },
 }

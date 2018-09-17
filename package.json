@@ -16,9 +16,11 @@
     "url": "https://github.com/Foo-x/coding-guidelines/issues"
   },
   "homepage": "https://github.com/Foo-x/coding-guidelines#readme",
+  "dependencies": {
+    "twemoji": "^11.0.1"
+  },
   "devDependencies": {
     "markdown-it-footnote": "^3.0.1",
-    "twemoji": "^11.0.1",
     "vuepress": "^0.14.1"
   }
 }

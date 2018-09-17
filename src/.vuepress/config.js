@@ -69,8 +69,8 @@ module.exports = {
       {
         title   : '7. コメント',
         children: [
-          [ '/comment/kinds'                 , '7.1. 種類' ],
-          [ '/comment/redundancy-elimination', '7.2. 冗長性の排除' ],
+          [ '/comment/kinds'                    , '7.1. 種類' ],
+          [ '/comment/elimination-of-redundancy', '7.2. 冗長性の排除' ],
         ]
       },
     ],

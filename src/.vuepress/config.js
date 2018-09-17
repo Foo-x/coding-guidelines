@@ -40,6 +40,7 @@ module.exports = {
         children: [
           [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ],
           [ '/logic/declarative'           , '4.2. 宣言型' ],
+          [ '/logic/early-return'          , '4.3. 早期リターン' ],
         ]
       },
       {

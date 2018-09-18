@@ -1,8 +1,8 @@
 # 縦のライン
 縦のラインを揃えることで読みやすくなります。
 
-### 改行
-#### :x:
+## 改行
+### :x:
 ```java
 public static final VeryLongNameClass foo = new VeryLongNameClass(1, 2, 3);
 public static final VeryLongNameClass bar =
@@ -14,7 +14,7 @@ public static final VeryLongNameClass baz =
     300);
 ```
 
-#### :o:
+### :o:
 ```java
 public static final VeryLongNameClass foo =
   new VeryLongNameClass(
@@ -33,15 +33,15 @@ public static final VeryLongNameClass baz =
     300);
 ```
 
-### カンマ
-#### :x:
+## カンマ
+### :x:
 ```java
 someMethod("fooooo", "bar", "baaaaaz");
 someMethod("foo", "baaaaaaaar", "baaaaaaaz");
 someMethod("foooooooo", "baaaaaaaaar", "baz");
 ```
 
-#### :o:
+### :o:
 ```java
 someMethod("fooooo"   , "bar"        , "baaaaaz");
 someMethod("foo"      , "baaaaaaaar" , "baaaaaaaz");

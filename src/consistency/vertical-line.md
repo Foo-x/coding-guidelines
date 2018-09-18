@@ -48,7 +48,9 @@ someMethod("foo"      , "baaaaaaaar" , "baaaaaaaz");
 someMethod("foooooooo", "baaaaaaaaar", "baz");
 ```
 
+::: tip NOTE
 :pencil2: **縦のラインを揃える**
+:::
 
 ## 注意
 縦のラインを揃えることで見やすくなりますが、ある行が変更されると他の行も変更しなければいけません。差分と手間が増えます。デメリットのほうが大きいと判断した場合は無理に揃える必要はありません。

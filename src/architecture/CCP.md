@@ -8,7 +8,9 @@ title: CCP
 
 パッケージの変更理由は1つだけにしましょう。また、パッケージ内の変更が他のパッケージに影響を及ぼさないようにしましょう。
 
+::: tip NOTE
 :pencil2: **パッケージが変更される理由は1つだけにする**
+:::
 
 ## 関連
 ### [SRP (Single Responsibility Principle)](SRP.md)

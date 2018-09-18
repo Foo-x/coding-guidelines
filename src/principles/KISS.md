@@ -52,7 +52,9 @@ for (int i = 1; i <= 20; i++) {
 }
 ```
 
+::: tip NOTE
 :pencil2: **コードは「単純」かつ「簡潔」に保つ**
+:::
 
 ## 関連
 ### less is more

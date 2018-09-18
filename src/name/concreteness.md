@@ -14,4 +14,6 @@
   - encryptedPassword
   - plaintextPassword
 
+::: tip NOTE
 :pencil2: **具体的な名前をつける**
+:::

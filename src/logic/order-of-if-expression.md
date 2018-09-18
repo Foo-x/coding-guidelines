@@ -11,4 +11,6 @@ if (expected == actual)
 if (actual == expected)
 ```
 
+::: tip NOTE
 :pencil2: **条件式は左側に「調査対象」、右側に「比較対象」**
+:::

@@ -1,9 +1,5 @@
----
-title: SAP
----
-
-# SAP (Stable Abstractions Principle)
-> 安定度・抽象度等価の原則  
+# 安定度・抽象度等価の原則
+> **SAP (Stable Abstractions Principle)**  
 > パッケージの抽象度と安定度は等価でなければならない
 
 安定しているパッケージは抽象クラスを中心に構成させましょう。パッケージを安定させるには抽象的にする必要があります。

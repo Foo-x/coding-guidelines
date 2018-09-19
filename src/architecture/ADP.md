@@ -1,9 +1,5 @@
----
-title: ADP
----
-
-# ADP (Acyclic Dependencies Principle)
-> 非循環依存関係の原則  
+# 非循環依存関係の原則
+> **ADP (Acyclic Dependencies Principle)**  
 > パッケージ依存グラフに循環を持ち込んではならない
 
 パッケージの依存関係は循環させないようにしましょう。どれか一つの変更がその他すべてのパッケージに影響を与えやすくなってしまいます。

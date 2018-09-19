@@ -1,9 +1,5 @@
----
-title: LSP
----
-
-# LSP (Liskov Substitution Principle)
-> リスコフの置換原則  
+# リスコフの置換原則
+> **LSP (Liskov Substitution Principle)**  
 > 派生型はその基底型と置換可能でなければならない
 
 子クラスは親クラスの性質を引き継がなければいけません。例えば子クラスで以下のような実装を行ってはいけません。

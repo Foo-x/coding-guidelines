@@ -1,9 +1,5 @@
----
-title: CRP
----
-
-# CRP (Common Reuse Principle)
-> 全再利用の原則  
+# 全再利用の原則
+> **CRP (Common Reuse Principle)**  
 > パッケージに含まれるすべてのクラスは一緒に再利用される
 
 パッケージには一緒に使われるクラスのみを含めるようにしましょう。そのパッケージの利用者が使わないクラスへの依存を強制させるべきではありません。
@@ -13,5 +9,5 @@ title: CRP
 :::
 
 ## 関連
-### [ISP (Interface Segregation Principle)](ISP.md)
+### [インターフェース分離の原則](ISP.md)
 利用される場面によってパッケージを分けるという手段が同じです。

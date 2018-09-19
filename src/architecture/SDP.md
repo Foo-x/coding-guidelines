@@ -1,9 +1,5 @@
----
-title: SDP
----
-
-# SDP (Stable Dependencies Principle)
-> 安定依存の原則  
+# 安定依存の原則
+> **SDP (Stable Dependencies Principle)**  
 > 安定する方向に依存せよ
 
 安定しているパッケージに依存するようにしましょう。不安定なパッケージに依存してしまうと、そのパッケージの修正のたびに追従する必要が生まれます。

@@ -1,9 +1,5 @@
----
-title: CCP
----
-
-# CCP (Common Closure Principle)
-> 閉鎖性共通の原則  
+# 閉鎖性共通の原則
+> **CCP (Common Closure Principle)**  
 > パッケージに含まれるクラスは、みな同じ種類の変更に対して閉じているべきである
 
 パッケージの変更理由は1つだけにしましょう。また、パッケージ内の変更が他のパッケージに影響を及ぼさないようにしましょう。
@@ -13,5 +9,5 @@ title: CCP
 :::
 
 ## 関連
-### [SRP (Single Responsibility Principle)](SRP.md)
+### [単一責任原則](SRP.md)
 閉鎖性共通の原則は単一責任原則のパッケージ版です。

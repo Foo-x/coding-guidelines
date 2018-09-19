@@ -62,17 +62,23 @@ module.exports = {
         ]
       },
       {
-        title   : '6. テスト',
+        title   : '6. スコープ',
         children: [
-          [ '/test/', '6.1. 目的' ],
+          [ '/scope/minimize-fields', '6.1. フィールド数の最少化' ],
         ]
       },
       {
-        title   : '7. コメント',
+        title   : '7. テスト',
         children: [
-          [ '/comment/kinds'                     , '7.1. 種類' ],
-          [ '/comment/elimination-of-redundancy' , '7.2. 冗長性の排除' ],
-          [ '/comment/elimination-of-explanation', '7.3. 補足の排除' ],
+          [ '/test/', '7.1. 目的' ],
+        ]
+      },
+      {
+        title   : '8. コメント',
+        children: [
+          [ '/comment/kinds'                     , '8.1. 種類' ],
+          [ '/comment/elimination-of-redundancy' , '8.2. 冗長性の排除' ],
+          [ '/comment/elimination-of-explanation', '8.3. 補足の排除' ],
         ]
       },
     ],

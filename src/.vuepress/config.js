@@ -64,7 +64,8 @@ module.exports = {
       {
         title   : '6. スコープ',
         children: [
-          [ '/scope/minimize-fields', '6.1. フィールド数の最少化' ],
+          [ '/scope/'               , '6.1. 基本' ],
+          [ '/scope/minimize-fields', '6.2. フィールド数の最少化' ],
         ]
       },
       {

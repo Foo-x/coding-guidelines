@@ -59,13 +59,13 @@ module.exports = {
           [ '/architecture/SDP'               , '5.11. 安定依存の原則' ],
           [ '/architecture/SAP'               , '5.12. 安定度・抽象度等価の原則' ],
           [ '/architecture/hiding-information', '5.13. 情報の隠蔽' ],
+          [ '/architecture/minimize-fields'   , '5.14. フィールド数の最少化' ],
         ]
       },
       {
         title   : '6. スコープ',
         children: [
-          [ '/scope/'               , '6.1. 基本' ],
-          [ '/scope/minimize-fields', '6.2. フィールド数の最少化' ],
+          [ '/scope/', '6.1. 基本' ],
         ]
       },
       {

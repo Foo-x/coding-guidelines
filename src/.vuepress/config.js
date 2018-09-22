@@ -41,6 +41,7 @@ module.exports = {
           [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ],
           [ '/logic/declarative'           , '4.2. 宣言型' ],
           [ '/logic/early-return'          , '4.3. 早期リターン' ],
+          [ '/logic/shrink-scope'          , '4.4. スコープの縮小' ],
         ]
       },
       {
@@ -63,23 +64,17 @@ module.exports = {
         ]
       },
       {
-        title   : '6. スコープ',
+        title   : '6. テスト',
         children: [
-          [ '/scope/', '6.1. 基本' ],
+          [ '/test/', '6.1. 目的' ],
         ]
       },
       {
-        title   : '7. テスト',
+        title   : '7. コメント',
         children: [
-          [ '/test/', '7.1. 目的' ],
-        ]
-      },
-      {
-        title   : '8. コメント',
-        children: [
-          [ '/comment/kinds'                     , '8.1. 種類' ],
-          [ '/comment/elimination-of-redundancy' , '8.2. 冗長性の排除' ],
-          [ '/comment/elimination-of-explanation', '8.3. 補足の排除' ],
+          [ '/comment/kinds'                     , '7.1. 種類' ],
+          [ '/comment/elimination-of-redundancy' , '7.2. 冗長性の排除' ],
+          [ '/comment/elimination-of-explanation', '7.3. 補足の排除' ],
         ]
       },
     ],

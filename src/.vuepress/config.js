@@ -85,6 +85,9 @@ module.exports = {
     editLinkText: '編集リクエスト',
   },
   markdown: {
+    anchor: {
+      permalink: false
+    },
     config: md => {
       md.use(require('markdown-it-footnote'));
       md.renderer.rules.emoji = (token, idx) => twemoji.parse(token[idx].content, {

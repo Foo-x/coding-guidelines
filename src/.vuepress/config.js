@@ -71,7 +71,8 @@ module.exports = {
       {
         title   : '6. テスト',
         children: [
-          [ '/test/', '6.1. 目的' ],
+          [ '/test/'          , '6.1. 目的' ],
+          [ '/test/test-first', '6.2. テストファースト' ],
         ]
       },
       {

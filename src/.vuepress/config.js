@@ -85,10 +85,17 @@ module.exports = {
         ]
       },
     ],
+    serviceWorker: {
+      updatePopup: {
+        message   : "新しいコンテンツが追加されました。",
+        buttonText: "更新",
+      }
+    },
     repo        : 'foo-x/coding-guidelines',
     docsDir     : 'src',
     editLinks   : true,
     editLinkText: '編集リクエスト',
+    lastUpdated : true,
   },
   markdown: {
     anchor: {

@@ -60,3 +60,47 @@ new WindowBuilder()
 
 ## 規約
 Javaの場合は`final`という修飾子で不変性を保証できますが、すべての変数につけるのは冗長です。`final`をつけていなくても基本は不変とし、変更される可能性がある変数はコメントで明示するといったコーディング規約を定めておくと冗長性を排除できます。
+
+## 初期化
+不変性を保つため、変数に仮の値を入れないようにしましょう。
+
+### :x:
+```java
+String name = null;
+if (person != null) {
+  name = person.name;
+} else {
+  name = "John Doe";
+}
+```
+
+このコードは`name`に再代入しており、`final`をつけるとコンパイルエラーになります。
+
+条件に応じて値を変えたい場合は以下の方法があります。
+
+### 三項演算子
+```java
+final String name = person != null ? person.name : "John Doe";
+```
+
+### メソッド化
+```java
+final String name = getName(person);
+
+private String getName(Person person) {
+  if (person != null)
+    return person.name;
+
+  return "John Doe";
+}
+```
+
+### 宣言と初期化の分離
+```java
+final String name;
+if (person != null) {
+  name = person.name;
+} else {
+  name = "John Doe";
+}
+```

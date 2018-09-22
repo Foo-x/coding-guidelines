@@ -42,6 +42,7 @@ module.exports = {
           [ '/logic/declarative'           , '4.2. 宣言型' ],
           [ '/logic/early-return'          , '4.3. 早期リターン' ],
           [ '/logic/shrink-scope'          , '4.4. スコープの縮小' ],
+          [ '/logic/immutability'          , '4.5. 不変性' ],
         ]
       },
       {

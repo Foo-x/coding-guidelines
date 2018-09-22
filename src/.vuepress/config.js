@@ -46,6 +46,7 @@ module.exports = {
           [ '/logic/shrink-scope'          , '4.4. スコープの縮小' ],
           [ '/logic/immutability'          , '4.5. 不変性' ],
           [ '/logic/use-library'           , '4.6. ライブラリの使用' ],
+          [ '/logic/premature-optimization', '4.7. 早すぎる最適化' ],
         ]
       },
       {

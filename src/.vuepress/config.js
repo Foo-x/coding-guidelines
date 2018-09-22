@@ -7,6 +7,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' } ],
   ],
+  serviceWorker: true,
   themeConfig: {
     sidebar: [
       [ '/', '0. はじめに' ],

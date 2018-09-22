@@ -43,6 +43,7 @@ module.exports = {
           [ '/logic/early-return'          , '4.3. 早期リターン' ],
           [ '/logic/shrink-scope'          , '4.4. スコープの縮小' ],
           [ '/logic/immutability'          , '4.5. 不変性' ],
+          [ '/logic/use-library'           , '4.6. ライブラリの使用' ],
         ]
       },
       {

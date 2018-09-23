@@ -40,13 +40,14 @@ module.exports = {
       {
         title   : '4. ロジック',
         children: [
-          [ '/logic/order-of-if-expression', '4.1. 条件式の並び順' ],
-          [ '/logic/declarative'           , '4.2. 宣言型' ],
-          [ '/logic/early-return'          , '4.3. 早期リターン' ],
-          [ '/logic/shrink-scope'          , '4.4. スコープの縮小' ],
-          [ '/logic/immutability'          , '4.5. 不変性' ],
-          [ '/logic/use-library'           , '4.6. ライブラリの使用' ],
-          [ '/logic/premature-optimization', '4.7. 早すぎる最適化' ],
+          [ '/logic/order-of-if-expression'             , '4.1. 条件式の並び順' ],
+          [ '/logic/declarative'                        , '4.2. 宣言型' ],
+          [ '/logic/early-return'                       , '4.3. 早期リターン' ],
+          [ '/logic/shrink-scope'                       , '4.4. スコープの縮小' ],
+          [ '/logic/immutability'                       , '4.5. 不変性' ],
+          [ '/logic/use-library'                        , '4.6. ライブラリの使用' ],
+          [ '/logic/premature-optimization'             , '4.7. 早すぎる最適化' ],
+          [ '/logic/prohibit-redundancy-arguments-check', '4.8. 冗長な引数チェックの禁止' ],
         ]
       },
       {

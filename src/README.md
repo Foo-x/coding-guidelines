@@ -1,5 +1,5 @@
 ---
-title: はじめに
+noTitle: true
 sidebarDepth: 3
 ---
 

@@ -54,10 +54,7 @@ module.exports = {
           ["/logic/immutability", "4.5. 不変性"],
           ["/logic/use-library", "4.6. ライブラリの使用"],
           ["/logic/premature-optimization", "4.7. 早すぎる最適化"],
-          [
-            "/logic/prohibit-redundancy-arguments-check",
-            "4.8. 冗長な引数チェックの禁止",
-          ],
+          ["/logic/programming-by-contract", "4.8. 契約プログラミング"],
         ],
       },
       {

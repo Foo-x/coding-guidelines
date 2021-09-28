@@ -84,6 +84,7 @@ module.exports = {
           ["/test/", "6.1. 目的"],
           ["/test/test-first", "6.2. テストファースト"],
           ["/test/refactoring", "6.3. リファクタリング"],
+          ["/test/naming", "6.4. テスト名"],
         ],
       },
       {

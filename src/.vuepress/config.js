@@ -107,9 +107,6 @@ module.exports = {
     },
     repo: "foo-x/coding-guidelines",
     docsDir: "src",
-    editLinks: true,
-    editLinkText: "編集リクエスト",
-    lastUpdated: true,
   },
   markdown: {
     extendMarkdown: (md) => {

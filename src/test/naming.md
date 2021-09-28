@@ -9,15 +9,13 @@
 ```ts
 // テストの構造化をサポートしている場合
 describe("fetch", () => {
-  describe("if have cache", () => {
-    test("hit cache and return it", () => {
-      // ...
-    })
+  test("if have cache, return it", () => {
+    // ...
   })
 })
 
 // テストの構造化をサポートしていない場合
-test("fetch - if have cache - hit cache and return it", () => {
+test("fetch - if have cache, return it", () => {
   // ...
 })
 ```

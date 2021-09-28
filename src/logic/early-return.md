@@ -1,19 +1,23 @@
 # 早期リターン
-メソッドは可能な限り早くリターンしましょう。また、else句はなるべく使わないようにしましょう。
+
+関数は可能な限り早くリターンしましょう。また、else句はなるべく使わないようにしましょう。
 
 ### :x:
-```java
-public int getFee(Person person) {
-  int fee;
 
-  if (person != null) {
-    if (person.age < 0) {
+```ts
+const getFee = (person: Person): number => {
+  let fee: number;
+
+  if (person.type !== "unknown") {
+    const age = person.age;
+
+    if (age < 0) {
       fee = -1;
-    } else if (person.age <= 12) {
+    } else if (age <= 12) {
       fee = 0;
-    } else if (person.age <= 15) {
+    } else if (age <= 15) {
       fee = 1000;
-    } else if (person.age <= 18) {
+    } else if (age <= 18) {
       fee = 1500;
     } else {
       fee = 2000;
@@ -27,24 +31,27 @@ public int getFee(Person person) {
 ```
 
 ### :o:
-```java
-public int getFee(Person person) {
-  if (person == null)
+
+```ts
+const getFee = (person: Person): number => {
+  if (person.type === "unknown") {
     return -1;
+  }
 
-  final int age = person.age;
+  const age = person.age;
 
-  if (age < 0)
+  if (age < 0) {
     return -1;
-
-  if (age <= 12)
+  }
+  if (age <= 12) {
     return 0;
-
-  if (age <= 15)
+  }
+  if (age <= 15) {
     return 1000;
-
-  if (age <= 18)
+  }
+  if (age <= 18) {
     return 1500;
+  }
 
   return 2000;
 }
@@ -65,14 +72,16 @@ public int getFee(Person person) {
 ## ガード節
 例外的な条件などを処理の冒頭で早期リターンすることを特に**ガード節**と呼びます。早期リターンの例として挙げたコードのうち、以下の部分が該当します。ガード節を置くことによって、それ以降の処理で例外的な状態を意識しないで済みます。
 
-```java
-  if (person == null)
+```ts
+  if (person.type === "unknown") {
     return -1;
+  }
 ```
 
-```java
-  if (age < 0)
+```ts
+  if (age < 0) {
     return -1;
+  }
 ```
 
 [^1]: ここでの「状態」はネストされている条件や再代入される変数の値のことです。

@@ -1,14 +1,17 @@
 # 条件式の並び順
+
 条件式は左側に「調査対象」、右側に「比較対象」を置きましょう。英語の文法と同じ順番にすることで読みやすくなります。
 
 ### :x:
-```java
-if (expected == actual)
+
+```ts
+if (expected === actual)
 ```
 
 ### :o:
-```java
-if (actual == expected)
+
+```ts
+if (actual === expected)
 ```
 
 ::: tip NOTE

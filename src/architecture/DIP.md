@@ -1,4 +1,5 @@
 # 依存関係逆転の原則
+
 > **DIP (Dependency Inversion Principle)**  
 > 上位のモジュールは下位のモジュールに依存してはならない。どちらのモジュールも抽象に依存すべきである
 
@@ -11,26 +12,25 @@
 :::
 
 ## 依存性の注入(DI: Dependency Injection)
+
 上位モジュールで使用する下位モジュールのインスタンスは**依存性の注入**を行います。専用のライブラリもいくつかありますが、下のような方法もあります。
 
-```java
-public class Main {
-  public static void main(String[] args) {
-    IEngine engine = new Engine();
-    Application application = new Application(engine);
-    application.startApplication();
-  }
-}
+```ts
+const engine: IEngine = new Engine();
+const app: App = new App(engine);
+app.start();
 ```
 
-`Application`が上位モジュール、`Engine`が下位モジュール、`IEngine`が間のインターフェースです。ポイントは`Application`から`Engine`への依存がなく、`Application`と`Engine`がどちらも`IEngine`に依存していることです。
+`App` が上位モジュール、`Engine` が下位モジュール、`IEngine` が間のインターフェースです。ポイントは `App` から `Engine` への依存がなく、`App` と `Engine` がどちらも `IEngine` に依存していることです。
 
 ::: tip NOTE
 :pencil2: **依存性の注入によって下位モジュールへの依存をなくす**
 :::
 
 ## 注意
+
 DIPを適用すべきでないケースがいくつかあります。
+
 - 下位モジュールが安定している場合
 
 依存関係を逆転させる目的は、下位モジュールの変更を上位モジュールに伝搬させないためです。下位モジュールに変更が発生しないのであれば適用する必要はありません。

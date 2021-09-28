@@ -1,4 +1,5 @@
 # ライブラリの使用
+
 ロジックを実装する前に、まず既存のライブラリを使えないか考えましょう。標準ライブラリで解決できない場合は、サードパーティ製のライブラリがないか探し、それでも解決できない場合にのみ自分で実装しましょう。ライブラリを使用することで実装以外にも以下のフェーズを節約できます。
 
 - 設計
@@ -14,15 +15,20 @@
 :::
 
 ## 例
+
 ### :small_red_triangle:
-```java
-// Map<Integer, String> map;
-String value = map.containsKey(1) ? map.get(1) : "default";
+
+```ts
+// arr = [[1, 2], [3, 4]]
+const flatArr = arr.reduce((acc, val) => acc.concat(val), []);
+// [1, 2, 3, 4]
 ```
 
 ### :o:
-```java
-String value = map.getOrDefault(1, "default");
+
+```ts
+const flatArr = arr.flat();
+// [1, 2, 3, 4]
 ```
 
-`getOrDefault`はJava8で追加されたメソッドです。バージョンアップによって追加された機能を調べたり、日頃からAPIドキュメントを読んでいると楽に実装できます。
+`flat()` はES2019で追加されました。バージョンアップによって追加された機能を調べたり、日頃からAPIドキュメントを読んでいると楽に実装できます。

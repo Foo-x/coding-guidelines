@@ -75,7 +75,7 @@ module.exports = {
           ["/architecture/SAP", "5.12. 安定度・抽象度等価の原則"],
           ["/architecture/hiding-information", "5.13. 情報の隠蔽"],
           ["/architecture/minimize-fields", "5.14. フィールド数の最少化"],
-          ["/architecture/one-method-one-task", "5.15. 1メソッド1タスク"],
+          ["/architecture/one-function-one-task", "5.15. 1関数1タスク"],
         ],
       },
       {

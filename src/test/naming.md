@@ -3,19 +3,31 @@
 テストの名前には以下の要素を含めましょう。
 
 1. テスト対象
-2. 条件
-3. シナリオと期待動作
+2. シナリオ
+3. 条件と期待動作
 
 ```ts
 // テストの構造化をサポートしている場合
 describe("fetch", () => {
-  test("if have cache, return it", () => {
-    // ...
+  describe("happy path", () => {
+    test("if have cache, return it", () => {
+      // ...
+    })
+  })
+
+  describe("invalid url", () => {
+    test("if url does not exist, throw error", () => {
+      // ...
+    })
   })
 })
 
 // テストの構造化をサポートしていない場合
-test("fetch - if have cache, return it", () => {
+test("fetch - happy path - if have cache, return it", () => {
+  // ...
+})
+
+test("fetch - invalid url - if url does not exist, throw error", () => {
   // ...
 })
 ```
@@ -24,7 +36,7 @@ test("fetch - if have cache, return it", () => {
 
 - 名前を見ただけでどのようなテストかがわかる
 - テストにドキュメントとしての役割も持たせられる
-- テストに失敗したときに修正が必要な箇所を見つけやすくなる
+- テストが失敗したときに修正が必要な箇所を見つけやすくなる
 
 ::: tip NOTE
 :pencil2: **テスト名をわかりやすくする**

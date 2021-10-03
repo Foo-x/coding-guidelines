@@ -86,6 +86,7 @@ module.exports = {
           ["/test/refactoring", "6.3. リファクタリング"],
           ["/test/naming", "6.4. テスト名"],
           ["/test/AAA", "6.5. AAA"],
+          ["/test/avoid-logic", "6.6. 分岐・ループの回避"],
         ],
       },
       {

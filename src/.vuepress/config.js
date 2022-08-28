@@ -76,6 +76,7 @@ module.exports = {
           ["/architecture/hiding-information", "5.13. 情報の隠蔽"],
           ["/architecture/minimize-fields", "5.14. フィールド数の最少化"],
           ["/architecture/one-function-one-task", "5.15. 1関数1タスク"],
+          ["/architecture/clean-architecture", "5.16. Clean Architecture"],
         ],
       },
       {

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "良いコードを書くための指針をまとめたメモです。",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build src"
   },
   "repository": {
     "type": "git",

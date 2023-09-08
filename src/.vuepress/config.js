@@ -88,7 +88,7 @@ module.exports = {
           ["/test/naming", "6.4. テスト名"],
           ["/test/AAA", "6.5. AAA"],
           ["/test/avoid-logic", "6.6. 分岐・ループの回避"],
-          ["/test/one-test-one-assert", "6.7. 1テスト1アサート"],
+          ["/test/one-test-one-point", "6.7. 1テスト1観点"],
         ],
       },
       {

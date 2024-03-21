@@ -55,7 +55,8 @@ module.exports = {
           ["/logic/use-library", "4.6. ライブラリの使用"],
           ["/logic/premature-optimization", "4.7. 早すぎる最適化"],
           ["/logic/programming-by-contract", "4.8. 契約プログラミング"],
-          ["/logic/CQS", "4.9. コマンドクエリ分離原則"],
+          ["/logic/pure-function", "4.9. 純粋関数"],
+          ["/logic/CQS", "4.10. コマンドクエリ分離原則"],
         ],
       },
       {

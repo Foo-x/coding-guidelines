@@ -86,9 +86,10 @@ module.exports = {
           ["/test/test-first", "6.2. テストファースト"],
           ["/test/refactoring", "6.3. リファクタリング"],
           ["/test/naming", "6.4. テスト名"],
-          ["/test/AAA", "6.5. AAA"],
+          ["/test/AAA", "6.5. AAAパターン"],
           ["/test/avoid-logic", "6.6. 分岐・ループの回避"],
           ["/test/one-test-one-point", "6.7. 1テスト1観点"],
+          ["/test/test-data-builder", "6.8. Test Data Builder パターン"],
         ],
       },
       {

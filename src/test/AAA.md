@@ -1,8 +1,8 @@
-# AAA
+# AAAパターン
 
 テストの準備 (Arrange)、実行 (Act)、検証 (Assert) を区別しましょう。これらが混ざっていると事前条件やテスト項目が分かりにくくなります。
 
-### :x:
+:x:
 
 ```ts
 test("add - 1 + 2 returns 3", () => {
@@ -10,7 +10,7 @@ test("add - 1 + 2 returns 3", () => {
 })
 ```
 
-### :o:
+:o:
 
 ```ts
 test("add - 1 + 2 returns 3", () => {

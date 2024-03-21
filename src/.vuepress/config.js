@@ -91,6 +91,7 @@ module.exports = {
           ["/test/avoid-logic", "6.6. 分岐・ループの回避"],
           ["/test/one-test-one-point", "6.7. 1テスト1観点"],
           ["/test/test-data-builder", "6.8. Test Data Builder パターン"],
+          ["/test/cross-check", "6.9. クロスチェック"],
         ],
       },
       {

@@ -1,4 +1,4 @@
-const twemoji = require("twemoji");
+const twemoji = require("@twemoji/api");
 
 module.exports = {
   base: "/coding-guidelines/",

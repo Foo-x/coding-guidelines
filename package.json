@@ -16,12 +16,12 @@
     "url": "https://github.com/Foo-x/coding-guidelines/issues"
   },
   "homepage": "https://github.com/Foo-x/coding-guidelines#readme",
-  "dependencies": {
-    "twemoji": "^14.0.2"
-  },
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.9.7",
     "markdown-it-footnote": "^3.0.3",
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "@twemoji/api": "^15.1.0"
   }
 }

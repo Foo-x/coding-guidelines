@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/Foo-x/coding-guidelines#readme",
   "devDependencies": {
-    "@vuepress/plugin-pwa": "^1.9.7",
-    "markdown-it-footnote": "^3.0.3",
-    "vuepress": "^1.9.7"
+    "@vuepress/plugin-pwa": "^1.9.10",
+    "markdown-it-footnote": "^4.0.0",
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
     "@twemoji/api": "^15.1.0"

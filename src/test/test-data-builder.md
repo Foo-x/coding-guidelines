@@ -111,7 +111,7 @@ class User {
 }
 
 const createUser = (
-  props: Pick<User, "name" | "age" | "height" | "weight">
+  props: Partial<User>
 ): User => {
   return new User(
     props.name ?? "foo",

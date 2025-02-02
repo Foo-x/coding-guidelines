@@ -82,6 +82,7 @@ module.exports = {
           ["/architecture/minimize-fields", "5.18. フィールド数の最少化"],
           ["/architecture/one-function-one-task", "5.19. 1関数1タスク"],
           ["/architecture/clean-architecture", "5.20. Clean Architecture"],
+          ["/architecture/primitive-obsession", "5.21. プリミティブ型執着"],
         ],
       },
       {

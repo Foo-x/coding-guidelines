@@ -42,6 +42,7 @@ module.exports = {
           ["/name/concreteness", "3.2. 具体性"],
           ["/name/prejudice", "3.3. 先入観"],
           ["/name/prohibit-abbreviation", "3.4. 省略の禁止"],
+          ["/name/magic-value", "3.5. マジックバリュー"],
         ],
       },
       {

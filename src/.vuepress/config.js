@@ -15,7 +15,17 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@vuepress/pwa"],
+  plugins: [
+    [
+      "@vuepress/pwa",
+      {
+        updatePopup: {
+          message: "新しいコンテンツが追加されました。",
+          buttonText: "更新",
+        },
+      },
+    ],
+  ],
   themeConfig: {
     sidebar: [
       ["/", "0. はじめに"],
@@ -75,7 +85,10 @@ module.exports = {
           ["/architecture/ADP", "5.10. 非循環依存関係の原則"],
           ["/architecture/SDP", "5.11. 安定依存の原則"],
           ["/architecture/SAP", "5.12. 安定度・抽象度等価の原則"],
-          ["/architecture/principles-of-package-design", "5.13. パッケージ設計の原則"],
+          [
+            "/architecture/principles-of-package-design",
+            "5.13. パッケージ設計の原則",
+          ],
           ["/architecture/cohesion", "5.14. 凝集度"],
           ["/architecture/coupling", "5.15. 結合度"],
           ["/architecture/connascence", "5.16. コナーセンス"],
@@ -110,15 +123,6 @@ module.exports = {
       },
     ],
     activeHeaderLinks: false,
-    plugins: {
-      "@vuepress/pwa": {
-        serviceWorker: true,
-        updatePopup: {
-          message: "新しいコンテンツが追加されました。",
-          buttonText: "更新",
-        },
-      },
-    },
     repo: "foo-x/coding-guidelines",
     docsDir: "src",
   },

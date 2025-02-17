@@ -111,6 +111,10 @@ module.exports = {
           ["/test/one-test-one-point", "6.7. 1テスト1観点"],
           ["/test/test-data-builder", "6.8. Test Data Builder パターン"],
           ["/test/cross-check", "6.9. クロスチェック"],
+          ["/test/minimize-test-doubles", "6.10. テストダブルの最小化"],
+          ["/test/reduce-execution-time", "6.11. 実行時間の短縮"],
+          ["/test/avoid-dependence-between-tests", "6.12. テスト間の依存の回避"],
+          ["/test/avoid-excessive-DRY", "6.13. 過剰なDRYの回避"],
         ],
       },
       {
